@@ -9,6 +9,8 @@ class SneakyEntityTweaks : JavaPlugin() {
     }
     override fun onEnable() {
         saveDefaultConfig()
+        server.pluginManager.registerEvents(Silverfish(), this)
+        server.pluginManager.registerEvents(Chicken(), this)
     }
 
     companion object {
