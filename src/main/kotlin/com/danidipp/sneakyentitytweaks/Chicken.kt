@@ -22,7 +22,6 @@ class Chicken : Listener{
     // Prevents chickens from laying eggs
     @EventHandler
     fun onLayEgg(event: EntityDropItemEvent) {
-        Bukkit.broadcast(Component.text("Entity type: ${event.entityType}, item type: ${event.itemDrop.type}"))
         if (event.entity.type != EntityType.CHICKEN) return
         event.isCancelled = true
     }
