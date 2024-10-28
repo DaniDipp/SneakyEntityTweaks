@@ -1,7 +1,7 @@
-name: paperplugin
+name: snkeakyentitytweaks
 version: "1.0"
-main: com.danidipp.paperplugin.PaperPlugin
+main: com.danidipp.sneakyentitytweaks.SneakyEntityTweaks
 api-version: "1.20"
 authors:
   - DaniDipp
-description: "Plugin template for Paper"
+description: "Adjustments for entity default behaviors in a roleplay environment"
