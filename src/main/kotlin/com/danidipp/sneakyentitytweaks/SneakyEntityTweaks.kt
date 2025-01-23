@@ -11,6 +11,8 @@ class SneakyEntityTweaks : JavaPlugin() {
         saveDefaultConfig()
         server.pluginManager.registerEvents(Silverfish(), this)
         server.pluginManager.registerEvents(Chicken(), this)
+
+        server.pluginManager.registerEvents(Kite(), this)
     }
 
     companion object {
